@@ -1,5 +1,5 @@
 author = "AChesheireCat";
-description = "Russian Federation Motor Rifles c. 2020 (Last updated: 2024/12/13)";
+description = "Russian Federation Motor Rifles c. 2016 (Last updated: 2024/12/13)";
 #include "undef.hpp" // Reset defines
 
 // Rifleman_02 is a Marksman.
@@ -8,12 +8,12 @@ description = "Russian Federation Motor Rifles c. 2020 (Last updated: 2024/12/13
 
 
 // Camo set
-#define CAMO_UNIFORM "CUP_U_O_RUS_Soldier_VKPO_Summer_1","CUP_U_O_RUS_Soldier_VKPO_Summer_2","CUP_U_O_RUS_Soldier_VKPO_Summer_3","CUP_U_O_RUS_Soldier_VKPO_Summer_4","CUP_U_O_RUS_Soldier_VKPO_Rolled_Summer_1","CUP_U_O_RUS_Soldier_VKPO_Rolled_Summer_2","CUP_U_O_RUS_Soldier_VKPO_Rolled_Summer_3","CUP_U_O_RUS_Soldier_VKPO_Rolled_Summer_4"
-#define CAMO_VEST "CUP_V_O_RUS_6B45_AK_Summer","CUP_V_O_RUS_6B45_AK_Med_Summer","CUP_V_O_RUS_6B45_SPP_AK_Summer","CUP_V_O_RUS_6B45_SPP_AK_Med_Summer"
+#define CAMO_UNIFORM "CUP_U_O_RUS_Soldier_VKPO_MSV_BeigeDigital_gloves_pads","CUP_U_O_RUS_Soldier_VKPO_MSV_BeigeDigital_rolled_up_gloves_pads","CUP_U_O_RUS_Ratnik_BeigeDigital"
+#define CAMO_VEST "CUP_Vest_RUS_6B45_Sh117_Desert","CUP_Vest_RUS_6B45_Sh117_Nut_Desert"
 #define CAMO_BACKPACK "B_Battle_Belt_F"
-#define CARRYALL "CUP_B_RUS_Raid_bag_Summer"
-#define CAMO_HEADGEAR "CUP_H_RUS_6B47_Summer","CUP_H_RUS_6B47_6B34C_Summer","CUP_H_RUS_6B47_Summer","CUP_H_RUS_6B47_6B34C_Summer","CUP_H_RUS_6B47_Summer","CUP_H_RUS_6B47_6B34C_Summer","CUP_H_RUS_6B47_6M2_6B34C_Summer","CUP_H_RUS_6B47_6M21_6B34C_Summer","CUP_H_RUS_6B47_6B34D_Summer","CUP_H_RUS_6B47_6B34U_Summer","CUP_H_RUS_6B47_6B34D_Summer","CUP_H_RUS_6B47_6B34U_Summer","CUP_H_RUS_6B47_6M2_6B34D_Summer","CUP_H_RUS_6B47_6M2_6B34U_Summer","CUP_H_RUS_6B47_6M21_6B34D_Summer","CUP_H_RUS_6B47_6M21_6B34U_Summer","CUP_H_RUS_6B47_6M2_Summer","CUP_H_RUS_6B47_6M21_Summer"
-#define CAMO_HEADGEAR_SPECIAL "CUP_H_RUS_6B47_NV_Summer","CUP_H_RUS_6B47_NV_6B34C_Summer","CUP_H_RUS_6B47_NV_Summer","CUP_H_RUS_6B47_NV_6B34C_Summer","CUP_H_RUS_6B47_NV_6M2_6B34C_Summer","CUP_H_RUS_6B47_NV_6M21_6B34C_Summer","CUP_H_RUS_6B47_NV_6B34D_Summer","CUP_H_RUS_6B47_NV_6B34U_Summer","CUP_H_RUS_6B47_NV_6B34D_Summer","CUP_H_RUS_6B47_NV_6B34U_Summer","CUP_H_RUS_6B47_NV_6M2_6B34D_Summer","CUP_H_RUS_6B47_NV_6M2_6B34U_Summer","CUP_H_RUS_6B47_NV_6M21_6B34D_Summer","CUP_H_RUS_6B47_NV_6M21_6B34U_Summer","CUP_H_RUS_6B47_NV_6M2_Summer","CUP_H_RUS_6B47_NV_6M21_Summer"
+#define CARRYALL "CUP_B_RUS_Raid_bag_Desert"
+#define CAMO_HEADGEAR "rhs_6b47_bare_d"
+#define CAMO_HEADGEAR_SPECIAL 
 // Pilot Camo set
 #define CAMO_UNIFORM_PILOT "rhs_uniform_df15"
 #define CAMO_VEST_PILOT "rhs_6sh92_digi"
@@ -108,19 +108,19 @@ description = "Russian Federation Motor Rifles c. 2020 (Last updated: 2024/12/13
 // -------------------- PASTE ABOVE THIS LINE
 //Custom Defines
 #define CAMO_VEST_AR CAMO_VEST
-#define CAMO_VEST_FTL "CUP_V_O_RUS_6B45_VOG_Summer","CUP_V_O_RUS_6B45_SPP_VOG_Summer"
-#define CAMO_VEST_SL "CUP_V_O_RUS_6B45_VOG_Radio_Summer","CUP_V_O_RUS_6B45_SPP_VOG_Radio_Summer"
-#define CAMO_VEST_MEDIC "CUP_V_O_RUS_6B45_AK_Med_Radio_Summer","CUP_V_O_RUS_6B45_AK_Med_Radio_Summer"
-#define CAMO_VEST_SNIPER "CUP_V_O_RUS_6B45_SPP_SVD_Summer"
+#define CAMO_VEST_FTL "CUP_Vest_RUS_6B45_Sh117_VOG_Desert","CUP_Vest_RUS_6B45_Sh117_VOG_Nut_Desert"
+#define CAMO_VEST_SL CAMO_VEST_FTL
+#define CAMO_VEST_MEDIC CAMO_VEST
+#define CAMO_VEST_SNIPER CAMO_VEST
 #define CAMO_VEST_SPOTTER CAMO_VEST
-#define CAMO_VEST_MMG "CUP_V_O_RUS_6B45_PKP_Summer","CUP_V_O_RUS_6B45_SPP_PKP_Summer"
+#define CAMO_VEST_MMG "CUP_Vest_RUS_6B45_Sh117_PKP_Desert","CUP_Vest_RUS_6B45_Sh117_PKP_Nut_Desert"
 #define CAMO_BACKPACK_LAT "rhs_rpg_empty"
-#define CAMO_BACKPACK_AR "CUP_B_RUS_Patrol_bag_Summer"
+#define CAMO_BACKPACK_AR "CUP_O_RUS_Patrol_bag_Desert"
 #define CAMO_BACKPACK_FTL CAMO_BACKPACK
-#define CAMO_BACKPACK_SL "CUP_B_RUS_Patrol_bag_Summer"
+#define CAMO_BACKPACK_SL "CUP_O_RUS_Patrol_bag_Desert"
 #define CAMO_BACKPACK_MEDIC "rhs_medic_bag_XL"
 #define MMG_ATTACHMENTS "CUP_optic_PechenegScope"
-#define CAMO_UNIFORM_SNIPER "U_O_FullGhillie_lsh"
+#define CAMO_UNIFORM_SNIPER "U_O_FullGhillie_ard"
 
 #define DMR "rhs_weap_svdp"
 #define DMR_MAG "10Rnd_762x54_Mag:10"
@@ -198,7 +198,6 @@ class aar: rifleman {// AAR
   linkedItems[] += {BINOS};
 };
 class lat: Fic_Soldier_Carbine {// RAT
-  vest[] = {"CUP_V_O_RUS_6B45_AK_Summer","CUP_V_O_RUS_6B45_AK_Med_Summer"};
   backpack[] = {CAMO_BACKPACK_LAT};
   magazines[] += {AT_MAG};
   launchers[] = {AT};
@@ -226,7 +225,6 @@ class mmgag: Fic_Spotter {// MMG Spotter/Ammo Bearer
   backpackItems[] += {MMG_MAG};
 };
 class matg: Fic_Soldier_Carbine {// MAT Gunner
-  vest[] = {"CUP_V_O_RUS_6B45_AK_Summer","CUP_V_O_RUS_6B45_AK_Med_Summer"};
   backpack[] = {"CUP_B_RPGPack_Khaki"};
   backpackItems[] = {};
   magazines[] += {MAT_MAG};
@@ -235,7 +233,6 @@ class matg: Fic_Soldier_Carbine {// MAT Gunner
   secondaryAttachments[] = {MAT_OPTIC};
 };
 class matag: Fic_Spotter {// MAT Spotter/Ammo Bearer
-  vest[] = {"CUP_V_O_RUS_6B45_AK_Summer","CUP_V_O_RUS_6B45_AK_Med_Summer"};
   backpack[] = {"CUP_B_RPGPack_Khaki"};
   backpackItems[] = {};
   magazines[] += {MAT_MAG2};
