@@ -8,7 +8,7 @@ description = "Russian Federation VDV c. 2022 (Last updated: 2024/12/13)";
 
 
 // Camo set
-#define CAMO_UNIFORM "CUP_U_O_RUS_Soldier_VKPO_Summer_1","CUP_U_O_RUS_Soldier_VKPO_Summer_2","CUP_U_O_RUS_Soldier_VKPO_Summer_3","CUP_U_O_RUS_Soldier_VKPO_Summer_4"
+#define CAMO_UNIFORM "CUP_U_O_RUS_Ratnik_Summer"
 #define CAMO_VEST "CUP_V_O_RUS_6B45_6Sh117_SPP_AK_Summer","CUP_V_O_RUS_6B45_6Sh117_SPP_AK_Med_Summer"
 #define CAMO_BACKPACK "B_Battle_Belt_F"
 #define CARRYALL "CUP_B_RUS_Raid_bag_Summer"
@@ -27,9 +27,9 @@ description = "Russian Federation VDV c. 2022 (Last updated: 2024/12/13)";
 // Rifle
 #define RIFLE "rhs_weap_ak74mr"
 #define RIFLE_MAG "CUP_30Rnd_545x39_AK12_M:7","CUP_30Rnd_TE1_Green_Tracer_545x39_AK12_M:3"
-#define RIFLE_ATTACHMENTS "rhs_acc_grip_ffg2","rhs_acc_dtk","potato_strongerFlashlights_CUP_LED_flashlight","rhs_acc_1p87"
+#define RIFLE_ATTACHMENTS "rhs_acc_grip_ffg2","rhs_acc_dtk","rhs_acc_1p87"
 #define AAR_ATTACHMENTS RIFLE_ATTACHMENTS
-#define ALT_OPTICS "rhs_acc_rakurspm","cup_optic_microt1","rhs_acc_okp7_picatinny"
+#define ALT_OPTICS "rhs_acc_rakurspm","CUP_optic_MicroT1_low","rhs_acc_okp7_picatinny","rhs_acc_ekp8_18","CUP_optic_VortexRazor_UH1_Black"
 #define NVG_OPTICS "CUP_optic_GOSHAWK_RIS"
 // GL Rifle
 #define GLRIFLE "rhs_weap_ak74mr_gp25"
@@ -240,14 +240,14 @@ class msamag: Fic_Spotter {// SAM Spotter/Ammo Bearer
   SAM_GEAR(CARRYALL, SAM_MAG)
 };
 class mtrg: Fic_Soldier_Carbine {// Mortar Gunner
-  launchers[] = {"potato_vz99_carryWeapon"};
+  launchers[] = {"CUP_2b14_carry"};
   MORTAR_GEAR(CARRYALL)
-  magazines[] += {"potato_vz99_HE_multi:6","potato_vz99_flare:2"};
+  magazines[] += {"ACE_1Rnd_82mm_Mo_HE:6"};
 };
 class mtrag: Fic_Spotter {// Assistant Mortar
   launchers[] = {"ace_csw_carryMortarBaseplate"};
   MORTAR_GEAR(CARRYALL)
-  magazines[] += {"potato_vz99_HE_multi:2","potato_vz99_smokeWhite:4","potato_vz99_flare:2"};
+  magazines[] += {"ACE_1Rnd_82mm_Mo_HE:2","ACE_1Rnd_82mm_Mo_Smoke:4"};
 };
 class spotter: Fic_Spotter {// Spotter
   uniform[] = {CAMO_UNIFORM_SNIPER};
