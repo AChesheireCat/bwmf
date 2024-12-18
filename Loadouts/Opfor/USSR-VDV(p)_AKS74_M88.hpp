@@ -1,5 +1,5 @@
 author = "AChesheireCat";
-description = "Soviet VDV Airborne c. 1985-1989. Includes a complete SF class section. This loadout is specifically intended to replicate the paratrooper/light infantry component during the Soviet-Afghan war. Note that the MAT, HMG, and HAT roles have reduced primary ammo for weight reasons.";
+description = "Soviet VDV Airborne c. 1985-1989. Includes a complete SF class section. This loadout is specifically intended to replicate the paratrooper/light infantry component during the Soviet-Afghan war. Note that the MAT, HMG, and HAT roles have reduced primary ammo for weight reasons. (Last updated: 2024/12/17)";
 #include "undef.hpp" // Reset defines
 
 // Rifleman_02 is a marksman
